@@ -245,6 +245,37 @@
     margin-bottom: 50px;
 }
 
+/* form section extra */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #FF900E;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.form p {
+    font-size: 34px;
+    margin-top: 50px;
+}
+
+.form input,
+textarea {
+    padding: 20px 10px;
+    font-size: 28px;
+}
+
+.form input[type="submit"] {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 /* footer section styles */
 
 .footer {
