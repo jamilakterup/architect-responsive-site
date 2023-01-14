@@ -88,126 +88,6 @@
     margin: 50px 0;
 }
 
-/* header responsive styles */
-
-@media screen and (max-width: 768px) {
-
-    .header,
-    .section {
-        width: 768px;
-        height: 100%;
-        margin: 0;
-    }
-
-    .header .section .navbar {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding-top: 10px;
-        padding-left: 10px;
-    }
-
-
-    .navbar .logo {
-        font-weight: 700;
-        font-size: 25px;
-        color: #131313;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    /* content section */
-    .header .section .main-content {
-        margin-top: 80px;
-        text-align: left;
-        width: 768px;
-        padding-left: 10px;
-    }
-
-    .main-content .content-title {
-        font-weight: 700;
-        font-size: 34px;
-        color: #131313;
-    }
-
-    .content-description {
-        font-weight: 400;
-        line-height: 18px;
-        color: #727272;
-        margin: 32px 0;
-    }
-
-    .top-image img {
-        margin: 50px 0;
-        width: 90%;
-    }
-
-    /* features section size */
-    .feature-content {
-        flex-direction: column;
-    }
-
-    .image-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-
-    .feature-text-section {
-        margin-top: 43px;
-    }
-
-    /* love and enjoy section */
-
-    .love-and-enjoy {
-        flex-direction: column;
-        margin-bottom: 130px;
-    }
-
-    .love-image-section img {
-        width: 100%;
-    }
-
-    .love-image-section {
-        margin-left: 100px;
-    }
-
-    /* fact section resize */
-    .icons {
-        flex-direction: column;
-        gap: 0;
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 80px;
-    }
-
-    .icons .img {
-        margin-bottom: 15px;
-        margin-top: 30px;
-    }
-
-    /* sponsors reside */
-    .icons div {
-        margin-top: 50px;
-    }
-
-    /* footer  */
-    .footer {
-        width: 768px;
-        text-align: left;
-    }
-
-    .footer p {
-        position: relative;
-        text-align: left;
-        width: 768px;
-    }
-
-}
-
 /* feature section style */
 
 .feature-content {
@@ -383,4 +263,125 @@
     font-size: 20px;
     text-align: center;
     color: #424242;
+}
+
+
+/* add media query for responsive styles */
+
+@media screen and (max-width: 768px) {
+
+    .header,
+    .section {
+        width: 768px;
+        height: 100%;
+        margin: 0;
+    }
+
+    .header .section .navbar {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    .navbar .logo {
+        font-weight: 700;
+        font-size: 25px;
+        color: #131313;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    /* content section */
+    .header .section .main-content {
+        margin-top: 80px;
+        text-align: left;
+        width: 768px;
+        padding-left: 10px;
+    }
+
+    .main-content .content-title {
+        font-weight: 700;
+        font-size: 34px;
+        color: #131313;
+    }
+
+    .content-description {
+        font-weight: 400;
+        line-height: 18px;
+        color: #727272;
+        margin: 32px 0;
+    }
+
+    .top-image img {
+        margin: 50px 0;
+        width: 90%;
+    }
+
+    /* features section size */
+    .feature-content {
+        flex-direction: column;
+    }
+
+    .image-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .feature-text-section {
+        margin-top: 43px;
+    }
+
+    /* love and enjoy section */
+
+    .love-and-enjoy {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .love-image-section img {
+        width: 100%;
+    }
+
+    .love-image-section {
+        margin-left: 100px;
+    }
+
+    /* fact section resize */
+    .icons {
+        flex-direction: column;
+        gap: 0;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .icons .img {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    /* sponsors reside */
+    .icons div {
+        margin-top: 50px;
+    }
+
+    /* footer  */
+    .footer {
+        width: 768px;
+        text-align: left;
+    }
+
+    .footer p {
+        position: relative;
+        text-align: left;
+        width: 768px;
+    }
+
 }
