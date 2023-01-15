@@ -340,6 +340,10 @@ textarea {
         padding-left: 10px;
     }
 
+    .main-content h1 {
+        margin-left: 20px;
+    }
+
     .main-content .content-title {
         font-weight: 700;
         font-size: 34px;
@@ -355,7 +359,7 @@ textarea {
 
     .top-image img {
         margin: 50px 0;
-        width: 90%;
+        width: 100%;
     }
 
     /* features section size */
@@ -384,10 +388,34 @@ textarea {
     }
 
     .love-image-section {
+        margin-left: 30px;
+    }
+
+    .image-button {
+        margin-top: 150px;
         margin-left: 100px;
     }
 
+    .image-button h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .image-button p {
+        font-size: 18px;
+        padding-left: 0;
+    }
+
     /* fact section resize */
+    .fact {
+        margin-top: -130px;
+    }
+
+    .fact h2,
+    p {
+        padding-left: 20px;
+    }
+
     .icons {
         flex-direction: column;
         gap: 0;
@@ -415,8 +443,8 @@ textarea {
         padding: 20px;
         border-radius: 5px;
         margin-top: 100px;
-        justify-content: flex-start;
         margin-left: 10px;
+        margin-left: 120px;
     }
 
     .form-title {
@@ -426,6 +454,7 @@ textarea {
     .form p {
         font-size: 24px;
         margin-top: 30px;
+        padding-left: 0;
     }
 
     .form input,
@@ -443,13 +472,10 @@ textarea {
     /* footer  */
     .footer {
         width: 768px;
-        text-align: left;
     }
 
     .footer p {
-        position: relative;
-        text-align: left;
-        width: 768px;
+        text-align: center;
     }
 
 }
